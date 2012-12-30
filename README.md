@@ -3,6 +3,11 @@
 # Requirements
 
 # Usage
+  Provides a library to extend the Chef DSL. You can now use let().
+
+  For example:
+
+    let(:password) { node['postgresql']['password']['postgres'] }
 
 # Attributes
 
@@ -10,4 +15,4 @@
 
 # Author
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: Ho-Sheng Hsiao (hosh@opscode.com)
